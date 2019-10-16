@@ -173,7 +173,9 @@
   // },
   "flex-layout.col#safety":{
     "children":[
-      "rich-text#safetytitle"
+      "rich-text#safetytitle",
+      "image#safetylogo"
+
     ]
   },
   "rich-text#safetytitle":{
@@ -182,6 +184,14 @@
       "blockClass": "footertitle"
     }
   },
+
+"image#safetylogo":{
+"props":{
+"src":"https://bebellys.vteximg.com.br/arquivos/encryptlogo.png",
+"alt":"Logo Lets Encrypt"
+}
+},
+
   "flex-layout.col#facesand":{
     "children":[
       //"sandbox#face"
