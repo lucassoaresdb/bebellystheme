@@ -1,0 +1,36 @@
+{
+    "store.custom#privacy": {
+      "blocks": [
+        "flex-layout.row#privacyrow"
+      ]
+    },
+    "flex-layout.row#privacyrow":{
+        "children":[ 
+            "flex-layout.col#privacycolumn"
+        ]
+    },
+    "flex-layout.col#privacycolumn":{
+        "children":[
+            "rich-text#aboutprivacy",
+            "rich-text#privacytext",
+            "rich-text#privacytext2"
+        ]
+    },
+    "rich-text#aboutprivacy":{
+        "props":{
+            "text": "PRIVACIDADE",
+            "blockClass": "footertitle"
+        }
+    },
+    "rich-text#privacytext":{
+        "props":{
+            "text": "Seus dados pessoais de endereçamento, pagamento e conteúdo de pedido não serão divulgados em hipótese alguma. Fique seguro de que eles não serão utilizados para outros fins que não o de processamento dos pedidos realizados."
+        }
+    },
+    "rich-text#privacytext2":{
+        "props":{
+            "text": "Em relação à segurança no tráfego de dados, toda transação que envolver pagamento, seja por cartão de crédito ou não, estará encriptada com a tecnologia SSL (Secure Socket Layer). Isso significa que só a loja tem acesso a estes dados. Quando você preenche os dados e nos envia, eles são criptografados, o que faz com que durante o trajeto pela Internet fiquem irreconhecíveis, assegurando a confidencialidade."
+        }
+    }
+
+}

@@ -1,0 +1,21 @@
+.container--footertitle .paragraph{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.container--footlinkitem .paragraph{
+
+    margin: 0px;
+}
+.container--footlinkitem .link{
+    color: #000;
+    text-decoration: none;
+}
+.container--footlinkitem .link:hover{
+    color:#ad7d45
+}
+.container--footerlasttext{
+    border-top: 1px solid #000;
+    margin: 20px auto;
+}

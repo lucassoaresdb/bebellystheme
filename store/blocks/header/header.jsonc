@@ -1,0 +1,452 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#contact-desktop",
+      "header-row#logo-desktop",
+      "header-row#menu-desktop"
+    ]
+  },
+  //CONTACT
+  "header-row#contact-desktop": {
+    "children": [
+      "header-spacer",
+      "vtex.menu@2.x:menu#contactmenu"
+      // "rich-text#attendance",
+      // "rich-text#talk",
+      // "rich-text#login",
+      // "rich-text#pedidos",
+      // "rich-text#cadastro"
+    ]
+  },
+  "vtex.menu@2.x:menu#contactmenu": {
+    "children": [
+      "menu-item#phone",
+      "menu-item#requests",
+      "menu-item#register"
+    ],
+    "props": {
+      "blockClass": "menu-contact",
+      "inverted": "true"
+    }
+  },
+  "menu-item#phone": {
+    "props": {
+      "text": "ATENDIMENTO (41) 3272-8789"
+    }
+  },
+  "menu-item#requests": {
+    "props": {
+      "text": "MEUS PEDIDOS",
+      "href": "/account/#orders"
+    }
+  },
+  "menu-item#register": {
+    "props": {
+      "text": "MEU CADASTRO",
+      "href": "/account"
+    }
+  },
+  //LOGO
+  "header-row#logo-desktop": {
+    "children": [
+      "logo#desktop",
+      "rich-text#facebook",
+      "rich-text#twiter",
+      "rich-text#instagram",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header"
+    }
+  },
+  "rich-text#facebook":{
+"props":{
+  "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/facetop.png 'Facebook Bebellys')](https://www.facebook.com/bebellys.infantil)"
+
+}
+},
+"rich-text#twiter":{
+"props":{
+  "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/twitertop.png 'Twitter Bebellys')](https://twitter.com/bebellysmoda/with_replies)"
+}
+},
+ 
+"rich-text#instagram":{
+    "props":{
+      "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/instagramtop.png 'Instagram Bebellys')](https://www.instagram.com/bebellysmoveis/)"
+    }
+},
+
+  "search-bar": {
+    "props": {
+      "iconClasses": "searchicon"
+    }
+  },
+  //MENU
+  "header-row#menu-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#prior"
+    ],
+    "props": {
+      "blockClass": "menu-link",
+      "inverted": "true"
+    }
+  },
+  "vtex.menu@2.x:menu#prior": {
+    "children": [
+      "menu-item#bercos",
+      "menu-item#comodas",
+      "menu-item#roupeiros",
+      "menu-item#marcas",
+      "menu-item#quartos",
+      "menu-item#offer"
+    ]
+  },
+  "menu-item#bercos": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#bercossub"
+    ],
+    "props": {
+      "text": "BERÇOS",
+      "href": "/bercos"
+    }
+  },
+  "vtex.menu@2.x:submenu#bercossub": {
+    "children": [
+      "vtex.menu@2.x:menu#submenubercos"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenubercos": {
+    "children": [
+      "menu-item#colchoes"
+    ]
+  },
+  "menu-item#colchoes": {
+    "props": {
+      "id": "menu-item-colchoes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/bercos/colchao",
+        "noFollow": true,
+        "tagTitle": "Colchões",
+        "text": "Colchões"
+      }
+    }
+  },
+  "menu-item#comodas": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#subcomodas"
+    ],
+
+    
+    "props": {
+      "text": "COMODAS",
+      "href":"/comodas"
+      // "blockClass": "highligthstop"
+    }
+  },
+  "vtex.menu@2.x:submenu#subcomodas": {
+    "children": [
+      "vtex.menu@2.x:menu#comodassub"
+    ]
+  },
+  "vtex.menu@2.x:menu#comodassub": {
+    "children": [
+      "menu-item#comodasbb"
+    ]
+  },
+  "menu-item#comodasbb": {
+    "props": {
+      "id": "menu-item-comodas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/comodas/comodas-para-casal",
+        "noFollow": true,
+        "tagTitle": "Comodas para bebê",
+        "text": "Comodas para bebê"
+      }
+    }
+  },
+  "menu-item#offer": {
+    "props": {
+      "text": "PROMOÇÃO DA SEMANA",
+      "blockClass": "offerstop",
+      "href":"/promocao-da-semana"
+    }
+  },
+  //ROUPEIROS
+  "menu-item#roupeiros": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#roupeirossub"
+    ],
+    "props": {
+      "text": "ROUPEIROS",
+      "href": "/roupeiros"
+    }
+  },
+  "vtex.menu@2.x:submenu#roupeirossub": {
+    "children": [
+      "vtex.menu@2.x:menu#roupeirossubmenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#roupeirossubmenu": {
+    "children": [
+      "menu-item#roupeirosbb"
+    ],
+    "props": {
+      "blockClass": "subdirection"
+    }
+  },
+  "menu-item#roupeirosbb": {
+    "props": {
+      "text": "Roupeiros para bebê"
+    }
+  },
+  
+  //MARCAS
+  "menu-item#marcas": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#marcassub"
+    ],
+    "props": {
+      "text": "MARCAS",
+      "href":"/marcas"
+    }
+  },
+  "menu-item#quartos": {
+    "blocks": [
+      "vtex.menu@2.x:submenu#quartossub"
+    ],
+    "props": {
+      "text": "QUARTOS COMPLETOS ",
+      "href": "/quarto-completos"
+    }
+  },
+  "vtex.menu@2.x:submenu#marcassub": {
+    "children": [
+      "vtex.menu@2.x:menu#marcassubmenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#marcassubmenu": {
+    "children": [
+      "menu-item#carolina",
+      "menu-item#forma",
+      "menu-item#planetbaby",
+      "menu-item#peroba",
+      "menu-item#multi",
+      "menu-item#Henn"
+
+    ],
+    "props": {
+      "blockClass": "subdirection"
+    }
+  },
+  "menu-item#carolina": {
+    "props": {
+      "text": "Carolina Baby"
+    }
+  },
+  "menu-item#forma": {
+    "props": {
+      "text": "Forma Espuma"
+    }
+  },
+  "menu-item#planetbaby": {
+    "props": {
+      "text": "Planet Baby"
+    }
+  },
+  "menu-item#peroba":{
+    "props":{
+      "text":"Peroba"
+    }
+  },
+"menu-item#multi":{
+  "props":{
+    "text":"Multimóveis"
+  }
+},
+
+"menu-item#Henn":{
+  "props":{
+    "text":"Henn"
+  }
+},
+
+  "vtex.menu@2.x:submenu#quartossub": {
+    "children": [
+      "vtex.menu@2.x:menu#quartossubmenu"
+    ]
+  },
+  "vtex.menu@2.x:menu#quartossubmenu": {
+    "children": [
+      "menu-item#quartoscompletosbb"
+    ],
+    "props": {
+      "blockClass": "subdirection"
+    }
+  },
+  "menu-item#quartoscompletosbb": {
+    "props": {
+      "text": "Quarto Completo bebê"
+    }
+  },
+  
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://bebellys.vteximg.com.br/arquivos/Bebellys_logo.png",
+      "width": "180"
+    }
+  },
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "",
+      "labelButtonFinishShopping": "Go to checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "gray",
+      "iconClasses": "MinicartIcon"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "vtex.menu@2.x:menu#priormobile"
+    ]
+  },
+  "vtex.menu@2.x:menu#priormobile": {
+    "children": [
+     //Categorias
+      "menu-item#bercosmobile",
+      "menu-item#comodasmobile",
+      "menu-item#roupeirosmobile",
+      "menu-item#marcasmobile",
+      "menu-item#camasmobile",
+      "menu-item#quartoscompletosmobile",
+      "menu-item#offermobile"
+      //MODA PRAIA
+      // "menu-item#beachmobile",
+      // "menu-item#bikini",
+      // "menu-item#pareo",
+      // "menu-item#exitdress",
+      // "menu-item#body"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#bercosmobile": {
+    "props": {
+      "text": "BERÇOS",
+      "blockClass": "bercosmobile",
+      "href":"/bercos"
+    }
+  },
+  "menu-item#comodasmobile": {
+    "props": {
+      "text": "COMODAS",
+      "blockClass": "comodasmobile",
+      "href":"/comodas"
+    }
+  },
+  "menu-item#roupeirosmobile": {
+    "props": {
+      "text": "ROUPEIROS",
+      "blockClass": "roupeirosmobile",
+      "href":"/roupeiros"
+    }
+  },
+
+  "menu-item#marcasmobile": {
+    "props": {
+      "text": "MARCAS",
+      "blockClass": "marcasmobile",
+      "href":"/marcas"
+    }
+  },
+
+
+  "menu-item#camasmobile": {
+    "props": {
+      "text": "CAMAS",
+      "blockClass": "camasmobile",
+      "href":"/camas"
+    }
+  },
+
+  "menu-item#quartoscompletosmobile": {
+    "props": {
+      "text": "QUARTOS COMPLETOS",
+      "blockClass": "quartoscompletosmobile",
+      "href":"/quarto-completos"
+    }
+  },
+
+  "menu-item#offermobile": {
+    "props": {
+      "text": "PROMOÇÕES DA SEMANA",
+      "blockClass": "offermobile",
+      "href":"/promocao-da-senana"
+    }
+  },
+
+
+
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://bebellys.vteximg.com.br/arquivos/Bebellys_logo.png",
+      "width": "70"
+    }
+  }
+}

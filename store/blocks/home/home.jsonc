@@ -1,0 +1,187 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+      "flex-layout.row#forms",
+      "shelf#home1",
+      "shelf#home2",
+      "flex-layout.row#imagesfoot"
+    ]
+  },
+  
+
+  "carousel#home": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://analoren.ciaimg.com.br/Assets/Banner/2/primavera1.jpg?v=5e618cd-1",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        },
+        {
+          "image": "https://analoren.ciaimg.com.br/Assets/Banner/2/primavera1.jpg?v=5e618cd-1",
+          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+        }
+      ],
+      "height": 720,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+
+  "flex-layout.row#forms":{
+    "children":[
+      "newsletter"
+    ],
+    "props":{
+      "horizontalAlign": "right",
+      "blockClass": "formbox"
+      
+    }
+  },
+  
+  "newsletter":{
+    "props":{
+      "label": "NEWSLETTER",
+      "submit": "Enviar",
+      "placeholder": "Insira seu e-mail"
+    }
+  },
+
+  "shelf#home1": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 50,
+        "itemsPerPage": 3,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "showTitle": false,
+        "paginationDotsVisibility": "hidden"
+      }
+    }
+  },
+
+  "shelf#home2": {
+    "blocks": [
+      "product-summary.shelf"
+    ],
+    "props": {
+      "orderBy": "OrderByBestDiscountDESC",
+      "productList": {
+        "maxItems": 50,
+        "itemsPerPage": 3,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "showTitle": false,
+        "paginationDotsVisibility": "hidden"
+      }
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price"
+    ]
+  },
+  "product-summary-name":{
+    "props":{
+      "blockClass": "shelfprodname"
+    }
+  },
+  "product-summary-price":{
+    "props":{
+      "showLabels": false
+    }
+  },
+  "product-summary-image":{
+    "props":{
+      "hoverImageLabel": "hover"
+    }
+  },
+
+  
+  "flex-layout.row#imagesfoot":{
+    "children":[
+      "flex-layout.col#imagesfoot1",
+      "flex-layout.col#imagesfoot2",
+      "flex-layout.col#imagesfoot3"
+    ]
+  },
+  
+  "flex-layout.col#imagesfoot1":{
+    "children":[
+      "info-card#footimage1"
+    ],
+    "props":{
+      "blockClass": "footimagebox"
+    }
+  },
+  "flex-layout.col#imagesfoot2":{
+    "children":[
+      "info-card#footimage2"
+    ],
+    "props":{
+      "blockClass": "footimagebox"
+    }
+  },
+  "flex-layout.col#imagesfoot3":{
+    "children":[
+      "info-card#footimage3"
+    ],
+    "props":{
+      "blockClass": "footimagebox"
+    }
+  },
+  "info-card#footimage1":{
+    "props":{
+      "isFullModeStyle": true,
+      "imageUrl": "https://bebellys.vteximg.com.br/arquivos/sobre.jpg",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "/about-us"
+    }
+  },
+  "info-card#footimage2":{
+    "props":{
+      "isFullModeStyle": true,
+      "imageUrl": "https://bebellys.vteximg.com.br/arquivos/sobre.jpg",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl": "https://www.instagram.com/bebellysmoveis/"
+
+    }
+  },
+  "info-card#footimage3":{
+    "props":{
+      "isFullModeStyle": true,
+      "imageUrl": "https://bebellys.vteximg.com.br/arquivos/sobre.jpg",
+      "textPosition": "center",
+      "blockClass": "footimagecard",
+      "callToActionUrl":"/promocao-da-semana"
+    }
+  }
+  
+}
+
+
+

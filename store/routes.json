@@ -1,0 +1,18 @@
+{
+  "store.custom#about-us": {
+    "path": "/about-us"
+  },
+  "store.custom#privacy": {
+    "path": "/privacy-info"
+  },
+  "store.custom#paymentinst": {
+    "path": "/paymentinst-info"
+  },
+  "store.custom#change": {
+    "path": "/change-info"
+  },
+  "store.custom#shipping-info": {
+    "path": "/shipping-info"
+  }
+  
+}

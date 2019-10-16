@@ -1,0 +1,102 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#aboutrow"
+    ]
+  },
+  "flex-layout.row#aboutrow":{
+      "children":[ 
+          "flex-layout.col#aboutcolumn"
+      ]
+  },
+  "flex-layout.col#aboutcolumn":{
+      "children":[
+          "rich-text#abouttitle",
+          "rich-text#abouttext",
+          "rich-text#abouttext2",
+          "rich-text#abouttext3",
+          "rich-text#abouttext4",
+          "rich-text#abouttext5",
+          "rich-text#abouttitle2",
+          "rich-text#abouttext6",
+          "rich-text#abouttitle3",
+          "rich-text#abouttext7"
+      ]
+  },
+  "rich-text#abouttitle":{
+      "props":{
+          "text": "SOBRE A BEBELLYS",
+          "blockClass": "footertitle"
+      }
+  },
+  "rich-text#abouttext":{
+      "props":{
+        "text": "A BEBELLYS é uma empresa especializada no comércio  Móveis , CALÇADOS, CONFECÇÕES e enxovais, trabalhando com os principais fabricantes e marcas do mercado."
+      }
+  },
+  "rich-text#abouttext2":{
+      "props":{
+        "text": "Nosso objetivo é proporcionar aos nossos clientes a compra de produtos de qualidade, assim como os últimos lançamentos do mercado, sempre a preços justos e acessíveis."
+      }
+  },
+  "rich-text#abouttext3":{
+    "props":{
+      "text": "Estabelecida em Curitiba Paraná desde 04/2009, é reconhecida como empresa séria, desfrutando de excelente reputação nos sites de avaliações para comércio eletrônico."
+    }
+  },
+  "rich-text#abouttext4":{
+    "props":{
+      "text": "Aguardamos seu contato, e agradecemos a preferência.Colocamo-nos à disposição de nossos clientes  para esclarecer quaisquer dúvidas.  "
+    }
+  },
+  "rich-text#abouttext5":{
+    "props":{
+      "text": "Nossos profissionais estão treinados e capacitados para lhe prestar o apoio necessário para esclarecimentos. "
+    }
+  },
+  "rich-text#abouttitle2":{
+    "props":{
+        "text": "Loja Física",
+        "blockClass": "footertitle"
+    }
+  },
+  "rich-text#abouttext6":{
+    "props":{
+        "text": "Av Vereador Toaldo Tulio 2022 São Braz  Curitiba Pr."
+    }
+  },
+
+  "rich-text#abouttitle3":{
+    "props":{
+    "text":"Horário de Funcionamento",
+     "blockClass":"footertitle"
+}
+  },
+
+  "rich-text#abouttext7":{
+    "props":{
+        "text": "De Segunda à Sexta das 09:00 às 18:00 hs.Sábados  das 9:30 as 16:00 hs."
+    }
+  },
+
+  "flex-layout.row#topmaster":{
+    "children":[
+      "flex-layout.col#topmini"
+    ]
+  },
+  "flex-layout.col#topmini":{
+    "children":[
+      "sandbox#uhul"
+    ]
+  },
+  "sandbox#uhul":{
+    "props":{
+      "width": "200px",
+      "height": "60px",
+      "initialContent": "<iframe src='www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fanalorencom%2F165203340207714%3Ffref%3Dts&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=626212267424713' scrolling='no' frameborder='0' style='border:none; overflow:hidden; height:258px;' allowtransparency='true'></iframe>",
+      "allowCookies": true
+    }
+  }
+
+
+}

@@ -1,0 +1,35 @@
+.flexRow--deals {
+  background-color: #a7afbd;
+  padding: 14px 0px;
+}
+
+.flexRow--deals  .stretchChildrenWidth {
+  align-items: center;
+}
+
+.flexRow--deals .flexCol {
+  align-items: center;
+}
+
+.flexRow--topfootrow, .flexRow--middlefootrow{
+  width: 100%;
+}
+
+.flexRow--formbox .stretchChildrenWidth{
+  width: auto !important;
+}
+
+.flexCol--footimagebox{
+  padding: 35px;
+}
+
+.flexCol--footimagebox .pb0{
+  height: 100%;
+}
+.flexRow--pricebuybox{
+  margin: 20px 0px;
+}
+.flexRow--pricebuybox button{
+  padding: 15px 0px;
+  border-radius: 0px;
+}

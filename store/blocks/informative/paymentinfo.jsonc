@@ -1,0 +1,54 @@
+{
+    "store.custom#paymentinst": {
+      "blocks": [
+        "flex-layout.row#paymentinstrow"
+      ]
+    },
+    "flex-layout.row#paymentinstrow":{
+        "children":[
+            "flex-layout.col#paymentinstcol"
+        ]
+    },
+    "flex-layout.col#paymentinstcol":{
+        "children":[
+            "rich-text#paymentinsttitle",
+            "rich-text#paymentinsttext",
+            "rich-text#paymentinsttitle2",
+            "rich-text#paymentinsttext2",
+            "rich-text#paymentinsttitle3",
+            "rich-text#paymentinsttext3"
+        ]
+    },
+    "rich-text#paymentinsttitle":{
+        "props": {
+            "text": "Cartão de Crédito"
+        }
+    },
+    "rich-text#paymentinsttext":{
+        "props": {
+            "text": "Na BEBELLYS, você pode fazer suas compras com todos os cartões de crédito, através do gerenciador de pagamento Moip.O pagamento pode ser feito ser à vista ou parcelado em até 6x sem juros. Salvo exceções em épocas de promoção que serão em apenas 3x sem juros no cartão.  Se escolher o cartão de crédito, informe sua opção ao fechar o pedido e siga as instruções para concluir o procedimento. Para a sua segurança, se houver qualquer divergência de informações cadastrais e de pagamento, entraremos em contato para reconfirmar os dados e aprovar posteriormente.Lembramos que os cartões de crédito possuem limites de compra estabelecidos pela administradora, por isso, é importante frisar que, para o pedido ser aprovado, é necessário que haja limite disponível no cartão. Cartões emitidos no exterior não estão inclusos no nosso sistema operacional.Assim que a operadora aprovar o pagamento via cartão, iniciaremos o processo de embalagem do produto e informaremos o andamento da compra por email."
+        }
+    },
+    "rich-text#paymentinsttitle2":{
+        "props":{
+            "text": "Boleto Bancário"
+        }
+    },
+    "rich-text#paymentinsttext2":{
+        "props": {
+            "text": "Os pagamentos efetuados através de boletos bancários são gerados em apenas uma parcela no valor total de sua compra, ou seja, à vista. Além disso, pode ser feito até o vencimento em qualquer agência bancária. É importante que o cliente imprima o boleto bancário quando finalizar o processo. Lembrando que os boletos pagos após a data de vencimento serão desconsiderados."
+        }
+    },
+    "rich-text#paymentinsttitle3":{
+        "props": {
+            "text": "Observações:"
+        }
+    },
+    "rich-text#paymentinsttext3":{
+        "props": {
+            "text": "A confirmação do pagamento do boleto é feita automaticamente pelo banco; O prazo de entrega da compra só começa a vigorar após a confirmação do pagamento do boleto pelo banco, que poderá ocorrer em até 48 horas úteis. Informaremos o andamento via email; Os boletos que constarem no sistema como não pago, serão cancelados automaticamente."
+        }
+    }
+
+
+}
