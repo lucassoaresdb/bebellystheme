@@ -310,7 +310,8 @@
   },
   "menu-item#quartoscompletosbb": {
     "props": {
-      "text": "Quarto Completo bebê"
+      "text": "Quarto Completo bebê",
+      "href":"/quarto-completos/quarto-completo-bebe"
     }
   },
   

@@ -7,10 +7,17 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "rich-text#whatsapp",
       "footer-row#1-desktop",
       "footer-row#2-desktop",
       "footer-row#3-desktop"
     ]
+  },
+  "rich-text#whatsapp":{
+    "props":{
+      "text": "[whatsApp](https://api.whatsapp.com?target=_blank/send?phone=4132728789&text=&source=&data=)",
+      "blockClass":"whatsapp a"
+    }
   },
   "footer-row#1-desktop": {
     "children": [
@@ -225,8 +232,15 @@
   "footer-layout.mobile": {
     "children": [
       "footer-row#1-mobile",
-      "footer-row#2-mobile"
+      "footer-row#2-mobile",
+      "rich-text#whatsappmobile"
     ]
+  },
+  "rich-text#whatsappmobile":{
+    "props":{
+      "text": "[whatsApp](https://api.whatsapp.com/send?1=pt_BR&phone=554132728789)",
+      "blockClass":"whatsapp a"
+    }
   },
   "footer-row#1-mobile": {
     "children": [
