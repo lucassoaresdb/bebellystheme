@@ -77,19 +77,19 @@
   },
   "rich-text#facebook":{
 "props":{
-  "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/facetop.png 'Facebook Bebellys')](https://www.facebook.com/bebellys.infantil)"
+  "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/logofc.png 'Facebook Bebellys')](https://www.facebook.com/bebellys.infantil)"
 
 }
 },
 "rich-text#twiter":{
 "props":{
-  "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/twitertop.png 'Twitter Bebellys')](https://twitter.com/bebellysmoda/with_replies)"
+  "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/logotw.png 'Twitter Bebellys')](https://twitter.com/bebellysmoda/with_replies)"
 }
 },
  
 "rich-text#instagram":{
     "props":{
-      "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/instagramtop.png 'Instagram Bebellys')](https://www.instagram.com/bebellysmoveis/)"
+      "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/logoinsta.png 'Instagram Bebellys')](https://www.instagram.com/bebellysmoveis/)"
     }
 },
 
@@ -101,11 +101,13 @@
   //MENU
   "header-row#menu-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#prior"
+     // "vtex.menu@2.x:menu#prior"
+     "category-menu"
     ],
     "props": {
-      "blockClass": "menu-link",
-      "inverted": "true"
+      "blockClass": "content-menu",
+      "inverted": "true",
+      "sticky": true   
     }
   },
   "vtex.menu@2.x:menu#prior": {
