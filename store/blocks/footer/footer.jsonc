@@ -239,7 +239,7 @@
   "rich-text#whatsappmobile":{
     "props":{
       "text": "[whatsApp](https://api.whatsapp.com/send?1=pt_BR&phone=554132728789)",
-      "blockClass":"whatsapp a"
+      "blockClass":"whatsapp"
     }
   },
   "footer-row#1-mobile": {
