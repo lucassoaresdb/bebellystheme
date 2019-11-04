@@ -63,6 +63,14 @@
       "share#default"
     ]
   },
+
+  "product-name":{
+    "props":{
+      "showSku": true
+
+    }
+    
+  },
   "product-identifier.product":{
     "props":{
     }
