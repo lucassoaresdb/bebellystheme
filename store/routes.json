@@ -13,6 +13,7 @@
   },
   "store.custom#shipping-info": {
     "path": "/shipping-info"
+    
   }
   
 }

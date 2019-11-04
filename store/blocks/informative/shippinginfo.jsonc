@@ -15,6 +15,7 @@
             "rich-text#shippingtext",
             "rich-text#shippingtitle2",
             "rich-text#shippingtext2"
+            ///
         ]
     },
     "rich-text#shippingtitle":{
