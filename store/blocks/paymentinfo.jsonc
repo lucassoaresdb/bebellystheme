@@ -1,0 +1,24 @@
+{
+    "store.custom#paymentinst": {
+      "blocks": [
+        "flex-layout.row#paymentinstrow"
+      ]
+    },
+    "flex-layout.row#paymentinstrow":{
+        "children":[
+            "flex-layout.col#paymentinstcol"
+        ]
+    },
+    "flex-layout.col#paymentinstcol":{
+        "children":[
+            "rich-text#paymentinsttitle"
+        ]
+    },
+    "rich-text#paymentinsttitle":{
+        "props": {
+            "text": "top top"
+        }
+    }
+
+
+}

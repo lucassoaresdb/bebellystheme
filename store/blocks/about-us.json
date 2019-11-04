@@ -1,0 +1,80 @@
+{
+  "store.custom#about-us": {
+    "blocks": [
+      "flex-layout.row#aboutrow"
+    ]
+  },
+  "flex-layout.row#aboutrow":{
+      "children":[ 
+          "flex-layout.col#aboutcolumn"
+      ]
+  },
+  "flex-layout.col#aboutcolumn":{
+      "children":[
+          "rich-text#abouttitle",
+          "rich-text#abouttext",
+          "rich-text#abouttext2",
+          "rich-text#abouttext3",
+          "rich-text#abouttext4",
+          "rich-text#abouttitle2",
+          "rich-text#abouttext6"
+      ]
+  },
+  "rich-text#abouttitle":{
+      "props":{
+          "text": "SOBRE A ANALOREN",
+          "blockClass": "footertitle"
+      }
+  },
+  "rich-text#abouttext":{
+      "props":{
+        "text": "Analoren é a junção dos nomes das irmãs Jordanna e Lorena. Sua Missão é trazer as últimas tendências da moda feminina de um jeito fácil e acessível. A loja nasceu em julho 2011, mas nossa história começou bem antes, na época em que uma das irmãs, então estudante de Direito, vendia roupas para as amigas de faculdade."
+      }
+  },
+  "rich-text#abouttext2":{
+      "props":{
+        "text": "Depois da formatura, o gosto pela moda feminina se tornou profissão. Numa época em que o comércio online parecia uma realidade distante, seu pai, apostou na internet e foi inaugurada a loja online, especializada em roupas e acessórios femininos."
+      }
+  },
+  "rich-text#abouttext3":{
+    "props":{
+      "text": "Hoje, a Analoren atende clientes de todo o Brasil, desde o público mais sofisticado até mulheres que procuram por peças mais básicas, sempre conectada com as tendências da alta costura e do street fashion. Além de estar presente na internet, a marca possui também uma loja física na cidade de Araguari, no interior de Minas Gerais."
+    }
+  },
+  "rich-text#abouttext4":{
+    "props":{
+      "text": "As roupas e acessórios da Analoren são sensação entre as principais blogueiras de moda do Brasil, e sempre buscamos novidades, para continuar a oferecer uma experiência de moda total."
+    }
+  },
+  "rich-text#abouttitle2":{
+    "props":{
+        "text": "Loja Física",
+        "blockClass": "footertitle"
+    }
+  },
+  "rich-text#abouttext6":{
+    "props":{
+        "text": "Além de estar presente na internet, a marca possui também uma loja física na cidade de Araguari, no interior de Minas Gerais."
+    }
+  },
+  "flex-layout.row#topmaster":{
+    "children":[
+      "flex-layout.col#topmini"
+    ]
+  },
+  "flex-layout.col#topmini":{
+    "children":[
+      "sandbox#uhul"
+    ]
+  },
+  "sandbox#uhul":{
+    "props":{
+      "width": "200px",
+      "height": "60px",
+      "initialContent": "<iframe src='www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2Fanalorencom%2F165203340207714%3Ffref%3Dts&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false&amp;appId=626212267424713' scrolling='no' frameborder='0' style='border:none; overflow:hidden; height:258px;' allowtransparency='true'></iframe>",
+      "allowCookies": true
+    }
+  }
+
+
+}

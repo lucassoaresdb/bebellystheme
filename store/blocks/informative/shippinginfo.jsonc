@@ -1,0 +1,46 @@
+{
+    "store.custom#shipping-info": {
+      "blocks": [
+        "flex-layout.row#shippingrow"
+      ]
+    },
+    "flex-layout.row#shippingrow":{
+        "children":[ 
+            "flex-layout.col#shippingcolumn"
+        ]
+    },
+    "flex-layout.col#shippingcolumn":{
+        "children":[
+            "rich-text#shippingtitle",
+            "rich-text#shippingtext",
+            "rich-text#shippingtitle2",
+            "rich-text#shippingtext2"
+        ]
+    },
+    "rich-text#shippingtitle":{
+        "props":{
+            "text": "PRAZO DE ENTREGA",
+            "blockClass": "footertitle"
+        }
+    },
+    "rich-text#shippingtext":{
+        "props":{
+          "text": "As encomendas poderão ser entregues na nossa loja ou expedidas para qualquer ponto do país, através dos CORREIOS ou por outra empresa de transporte."
+          
+        }
+    },
+    "rich-text#shippingtitle2":{
+        "props":{
+            "text": "VALOR DE FRETE",
+            "blockClass": "footertitle"
+        }
+    },
+    "rich-text#shippingtext2":{
+        "props":{
+          "text": "Para compras acima de R$ 400,00, enviamos gratuitamente através do PAC. Caso o cliente deseje trocar pelo SEDEX, não responsabilizamos pelos encargos."
+        }
+    }
+
+  
+  
+  }

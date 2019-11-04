@@ -1,0 +1,103 @@
+{
+    "store.custom#change": {
+      "blocks": [
+        "flex-layout.row#changerow"
+      ]
+    },
+    "flex-layout.row#changerow":{
+        "children":[
+            "flex-layout.col#changecol"
+        ]
+    },
+    "flex-layout.col#changecol":{
+        "children":[
+            "rich-text#changetitle",
+            "rich-text#changetext",
+            "rich-text#changetitle2",
+            "rich-text#changetext2",
+            "rich-text#changetitle3",
+            "rich-text#changetext3",
+            "rich-text#changetitle4",
+            "rich-text#changetext4",
+            "rich-text#changetitle5",
+            "rich-text#changetext5",
+            "rich-text#changetitle6",
+            "rich-text#changetext6",
+            "rich-text#changetitle7",
+            "rich-text#changetext7"
+
+        ]
+    },
+    "rich-text#changetitle":{
+        "props": {
+            "text": "# TROCAS E DEVOLUÇÕES"
+        }
+    },
+    "rich-text#changetext":{
+        "props": {
+            "text": "Prezando por nossa parceria de respeito e confiança, a Política de Troca e Devolução da ANALOREN é baseada no Código de Defesa do Consumidor:- O prazo para solicitação de troca ou devolução é de sete dias corridos a partir da data de recebimento do produto; - Todas as suas solicitações devem ser realizadas diretamente a Central de Atendimento, pelo telefone: (34)3246-3332 ou através do e-mail contato@analoren.com; - As mercadorias oriundas de troca ou cancelamento, deverão ser encaminhadas ao ANALOREN.COM em sua embalagem original; - O cliente tem até 7 dias úteis para o envio da mercadoria, após solicitada a troca ou devolução;"
+        }
+    },
+    "rich-text#changetitle2":{
+        "props":{
+            "text": "#### Ressarcimento de valores"
+        }
+    },
+    "rich-text#changetext2":{
+        "props":{
+            "text": "O valor do produto será devolvido de acordo com a forma de pagamento utilizada na compra, desde que observadas as condições descritas acima."
+        }
+    },
+    "rich-text#changetitle3":{
+        "props":{
+            "text": "#### Cartão de Crédito"
+        }
+    },
+    "rich-text#changetext3":{
+        "props": {
+            "text": "O estorno poderá ocorrer em até DUAS faturas subsequentes. Este procedimento é de responsabilidade da administradora do cartão utilizado."
+        }
+    },
+    "rich-text#changetitle4":{
+        "props":{
+            "text": "#### Boleto Bancário e Débito Online"
+        }
+    },
+    "rich-text#changetext4":{
+        "props":{
+            "text":"O estorno será feito na conta corrente em até 10 dias úteis após recebimento da peça."
+        }
+    },
+    "rich-text#changetitle5":{
+        "props":{
+           "text":"#### Avaria" 
+        }
+    },
+    "rich-text#changetext5":{
+        "props":{
+            "text":"Caso o produto seja avariado durante o transporte, recuse o recebimento e entre em contato com a nossa equipe."
+        }
+    },
+    "rich-text#changetitle6":{
+        "props": {
+            "text": "#### Produto com Defeito"
+        }
+    },
+    "rich-text#changetext6":{
+        "props": {
+            "text": "O prazo para solicitação de troca por defeito poderá ocorrer em até sete dias corridos após a data do recebimento, pelo email: contato@analoren.com. Nos isentamos da responsabilidade pela troca de qualquer produto cujo defeito tenha ocorrido por mau uso. Outros motivos para troca ou devolução"
+        }
+    },
+    "rich-text#changetitle7":{
+        "props": {
+            "text": "#### Promoções"
+        }
+    },
+    "rich-text#changetext7":{
+        "props": {
+            "text": "Durante as promoções e para produtos adquiridos em qualquer promoção, os custos de envio para trocas e devoluções são por conta do cliente."
+        }
+    }
+
+
+}

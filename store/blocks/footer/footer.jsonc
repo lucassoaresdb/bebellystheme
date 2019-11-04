@@ -1,0 +1,270 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "rich-text#whatsapp",
+      "footer-row#1-desktop",
+      "footer-row#2-desktop",
+      "footer-row#3-desktop"
+    ]
+  },
+  "rich-text#whatsapp":{
+    "props":{
+      "text": "[whatsApp](https://api.whatsapp.com?target=_blank/send?phone=4132728789&text=&source=&data=)",
+      "blockClass":"whatsapp"
+    }
+  },
+  "footer-row#1-desktop": {
+    "children": [
+      "flex-layout.row#topfoot"
+    ]
+  },
+  "flex-layout.row#topfoot":{
+    "children":[
+      "flex-layout.col#analoren",
+      "footer-spacer",
+      "flex-layout.col#payment",
+      "footer-spacer",
+      "flex-layout.col#social"
+    ],
+    "props": {
+      "blockClass": "topfootrow"
+    }
+  },
+  "flex-layout.col#analoren":{
+    "children":[
+      "rich-text#analorentitle",
+      "rich-text#about",
+      "rich-text#privacy"
+      // "rich-text#talk"
+    ]
+  },
+  "rich-text#analorentitle":{
+    "props":{
+      "text": "A BEBELLYS",
+      "blockClass": "footertitle"
+    }
+  },
+  "rich-text#about":{
+    "props":{
+      "text": "[Sobre a Bebellys](/about-us)",
+      "blockClass": "footlinkitem"
+    }
+  },
+  "rich-text#privacy":{
+    "props":{
+      "text": "[Privacidade](/privacy-info)",
+      "blockClass": "footlinkitem"
+
+    }
+  },
+
+  "flex-layout.col#payment":{
+    "children":[
+      "rich-text#paymenttitle",
+      "accepted-payment-methods"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "accepted-payment-methods": {
+    "props": {
+      "paymentMethods": [
+        "MasterCard", "Visa", "Diners Club"
+      ]
+    }
+  },
+  "rich-text#paymenttitle":{
+    "props":{
+      "text": "PAGAMENTO",
+      "blockClass": "footertitle"
+    }
+  },
+
+  "flex-layout.col#social":{
+    "children":[
+      "rich-text#socialtitle",
+      "social-networks"
+    ]
+  },
+  "rich-text#socialtitle":{
+    "props":{
+      "text": "ACOMPANHE",
+      "blockClass": "footertitle"
+    }
+  },
+
+  "social-networks": {
+    "props": {
+      "socialNetworks": [
+        {
+          "name": "Facebook",
+          "url": "https://www.facebook.com/bebellys.infantil/"
+        },
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/bebellysmoveis/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/login?redirect_after_login=%2Fbebellysmoda%2Fwith_replies"
+        },
+        {
+          "name": "Youtube",
+          "url": "https://www.youtube.com"
+        }
+      ]
+    }
+  },
+
+  "footer-row#2-desktop": {
+    "children":[
+      "flex-layout.row#middlefoot"
+    ]
+  },
+  "flex-layout.row#middlefoot":{
+    "children":[
+      "flex-layout.col#help",
+      "footer-spacer",
+      "flex-layout.col#safety",
+      "footer-spacer",
+      "flex-layout.col#vtexlogo"
+
+    ],
+    "props": {
+      "blockClass": "middlefootrow"
+    }
+  },
+  "flex-layout.col#help":{
+    "children":[
+      "rich-text#helptitle",
+      "rich-text#helppayment#",
+      "rich-text#change",
+      "rich-text#shipping"
+      // "rich-text#doubts"
+    ]
+  },
+
+  "rich-text#helptitle":{
+    "props":{
+      "text": "AJUDA E SUPORTE",
+      "blockClass": "footertitle"
+    }
+  },
+  "rich-text#helppayment#":{
+    "props":{
+      "text": "[Pagamento](/paymentinst-info)",
+      "blockClass": "footlinkitem"
+    }
+  },
+  "rich-text#change":{
+    "props":{
+      "text": "[Trocas e Devoluções](/change-info)",
+      "blockClass": "footlinkitem"
+    }
+  },
+  "rich-text#shipping":{
+    "props":{
+      "text": "[Frete e Entrega](/shipping-info)",
+      "blockClass": "footlinkitem"
+    }
+  },
+  // "rich-text#doubts":{
+  //   "props":{
+  //     "text": "[Dúvidas](#)",
+  //     "blockClass": "footlinkitem"
+  //   }
+  // },
+  "flex-layout.col#safety":{
+    "children":[
+      "rich-text#safetytitle",
+      "image#safetylogo"
+
+    ]
+  },
+  "rich-text#safetytitle":{
+    "props":{
+      "text": "SEGURANÇA",
+      "blockClass": "footertitle"
+    }
+  },
+
+"image#safetylogo":{
+"props":{
+"src":"https://bebellys.vteximg.com.br/arquivos/encryptlogo.png",
+"alt":"Logo Lets Encrypt"
+}
+},
+
+  "flex-layout.col#vtexlogo":{
+    "children":[
+      "image#vtexlogo"
+    ]
+  },
+"image#vtexlogo":{
+"props":{
+"src":"https://bebellys.vteximg.com.br/arquivos/vtexlogofooter.png"
+}
+},
+
+  "footer-row#3-desktop": {
+    "children": [
+      "rich-text#footer"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+
+  "rich-text#footer": {
+    "props": {
+      "text": "Bebellys Baby | CNPJ: 108840320001-50 | Av. Vereador Toaldo Tulio 2022 - São Braz | 82320-010 | Curitiba - PR | BRASIL",
+      "blockClass": "footerlasttext"
+    }
+  },
+
+  "footer-layout.mobile": {
+    "children": [
+      "footer-row#1-mobile",
+      "footer-row#2-mobile",
+      "rich-text#whatsappmobile"
+    ]
+  },
+  "rich-text#whatsappmobile":{
+    "props":{
+      "text": "[whatsApp](https://api.whatsapp.com/send?1=pt_BR&phone=554132728789)",
+      "blockClass":"whatsapp a"
+    }
+  },
+  "footer-row#1-mobile": {
+    "children": [
+      "accepted-payment-methods",
+      "footer-spacer",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "footer-row#2-mobile": {
+    "children": [
+      
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "Bebellys Baby | CNPJ: 108840320001-50 | Av. Vereador Toaldo Tulio 2022 - São Braz | 82320-010 | Curitiba - PR | BRASIL",
+      "blockClass": "footerlasttext"
+    }
+  }
+}

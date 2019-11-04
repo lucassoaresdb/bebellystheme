@@ -1,0 +1,24 @@
+{
+    "store.custom#change": {
+      "blocks": [
+        "flex-layout.row#changerow"
+      ]
+    },
+    "flex-layout.row#changerow":{
+        "children":[
+            "flex-layout.col#changecol"
+        ]
+    },
+    "flex-layout.col#changecol":{
+        "children":[
+            "rich-text#changetitle"
+        ]
+    },
+    "rich-text#changetitle":{
+        "props": {
+            "text": "Change"
+        }
+    }
+
+
+}

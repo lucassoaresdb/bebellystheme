@@ -1,0 +1,29 @@
+.headerRow--menu-link :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.headerRow--menu-link :global(.vtex-menu-2-x-submenu .vtex-menu-2-x-styledLink) {
+  color:#000000;
+}
+
+.headerRow--main-header .headerRowBackground {
+  background-color: #fff;
+}
+
+.headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
+  color: #727273;
+  font-size: 14px;
+}
+
+.headerRow--main-header-mobile .headerRowBackground {
+  padding: 10px 0px;
+  background-color: #fff;
+}
+.headerRow--pad-contact{
+  padding: 0px 10px;
+}
+
+
+
+

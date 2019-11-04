@@ -1,0 +1,242 @@
+.notificationBarContainer {
+  background-color: #E6F1E6;
+  color: #03034E;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.searchBarContainer {
+  /* max-width: 400px; */
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #E6F1E6;
+  padding: 0px;
+}
+.newsletter .button{
+  background: #ff73b4;
+  color: #fff;
+}
+.newsletter .button:hover{
+  background: #ff73b4;
+  color: #fff;
+}
+.newsletter {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 10px auto;
+  border: 1px dashed #ff73b4;
+  height: 105px;
+  padding: 0px 30px;
+}
+.newsletter .container{
+  padding: 10px;
+}
+.newsletter .label{
+  font-size: 13px;
+  color: #5bc6d0;
+  text-align: left;
+}
+.newsletter .form{
+  text-align: left
+}
+.newsletter .vtex-button{
+  -webkit-appearance: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #fff;
+  display: flex;
+  color: #fff;
+}
+
+.MinicartIcon{
+  font-weight: 100;
+}
+
+.inputGroup input {
+  background-color: transparent;
+  border: none;
+  padding-left: 10px;
+}
+
+.searchicon{
+    background: #cecece;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+.inputGroup input::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.inputGroup button {
+  color: #fff;
+  border: none;
+  margin-right: -24px;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.skuSelectorItem{
+  height: 25px;
+}
+
+/* .skuSelectorItem .frameAround{
+  background: #de7f0a5e;
+  border-radius: 0px;
+  border: 1px solid #ff8100;
+} */
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.logoContainer.sizeDesktop {
+  max-width: 330px;
+  min-width: 220px;
+}
+
+.infoCardContainer--footimagecard {
+  height: 300px;
+  position: relative;
+}
+
+.infoCardContainer--footimagecard .infoCardHeadline{
+  font-size: 25px;
+  margin-top: 85px;
+}
+.infoCardContainer--footimagecard .infoCardHeadline,
+.infoCardContainer--footimagecard .infoCardSubhead{
+  color: #fff;
+}
+.infoCardContainer--footimagecard .infoCardSubhead{
+  opacity: 0;
+}
+.infoCardContainer--footimagecard:hover .infoCardSubhead{
+  opacity: 1;
+  transition: 1s;
+}
+.infoCardContainer--footimagecard:hover .infoCardTextContainer{
+  background: #5bc6d085;
+  transition: 1s;
+  outline: 2px solid white;
+  outline-offset: -30px;
+}
+
+.infoCardContainer--footimagecard .infoCardTextContainer{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 45px;
+}
+
+.productBrand{
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #151515
+}
+.installmentsPrice{
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+}
+.installmentsPrice:first-child{
+  display: none;
+}
+.interestRatePrice{
+  display: none
+}
+.sellingPriceValue{
+  color: #5c5c5c;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.sellingPriceContainer .sellingPrice{
+  color: #000;
+  font-size: 16px;
+}
+h1.productNameContainer .productBrand{
+}
+.installmentsPrice span{
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.skuSelectorSubcontainer{
+  margin: 10px 0px;
+}
+.frameAround{
+  border-width: 1px;
+  border-radius: 0px;
+}
+.sizeMobile .logoImage{
+  width: 150px;
+}
+.productDescriptionContainer{
+  margin: 15px 0px;
+}
+.infoCardContainer--footimagecard .infoCardCallActionContainer{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  margin: 0px;
+}
+.infoCardContainer--footimagecard .infoCardCallActionContainer button{
+  visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media only screen and (min-width: 640px) {
+  .newsletter .container {
+    padding: 10px;
+  }
+
+  .label {
+    font-size: 40px;
+  }
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .infoCardContainer--footimagecard {
+    height: 380px;
+    width: 380px;
+    margin: 0px auto;
+  }
+}

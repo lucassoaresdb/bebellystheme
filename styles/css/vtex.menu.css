@@ -1,0 +1,84 @@
+.menuItem--offerstop{
+    background: #ff73b4;
+  }
+.menuItem--highligthstop{
+    background: #ff73b4;
+  }
+.menuItem:hover{
+  /* background: #5824f2; */
+  color: #fff;
+
+}
+.menuContainer--subdirection{
+  flex-direction: column
+}
+.menuContainer--subdirection .menuItem{
+  padding: 10px 0px
+}
+.menuContainer--menu-contact{
+  border-bottom: 1px solid #e2e2e2;
+  padding: 5px 0px;
+
+}
+.menuContainer--menu-contact .menuItem{
+  list-style-type: disc;
+  height: 15px;
+}
+.menuContainer--menu-contact .menuItem:hover{
+  background: #fff;
+  color: #000;
+}
+.menuContainer--menu-contact .menuItem .styledLink{
+  font-size: 11px;
+  font-weight: 600;
+  padding: 0px 10;
+  text-decoration: none;
+  color: #000;
+}
+.menuContainer--menu-contact .menuItem .styledLink::before{
+  content: "";
+  background: url(https://www.analoren.vteximg.com.br/arquivos/ids/155399/talk.png);
+  width: 12px;
+  height: 12px;
+  float: left;
+  padding: 0px 3px;
+  background-repeat: no-repeat;
+}
+
+.menuContainer--menu-contact .menuItem:first-child .styledLink::before{
+  content: "";
+  background: url(https://www.analoren.vteximg.com.br/arquivos/ids/155398/phone.png);
+  background-repeat: no-repeat;
+}
+
+.menuContainer--menu-contact .menuItem:nth-child(2) .styledLink::before{
+  content: "";
+  background: url(https://www.analoren.vteximg.com.br/arquivos/ids/155399/talk.png); 
+  background-repeat: no-repeat;
+}
+
+.menuContainer--menu-contact .menuItem:nth-child(3) .styledLink::before{
+  content: "";
+  background: none; 
+}
+
+.menuContainer--menu-contact .menuItem:hover .styledLink{
+  color: rgb(211, 211, 211);
+}
+.menuContainer--menu-contact .menuItem .styledLinkContainer{
+  padding: 0px;
+  padding: 0px;
+  display: flex;
+  margin-left: 0px
+}
+.menuItem--clothmobile .styledLinkContainer ,
+.menuItem--acessoriesmobile .styledLinkContainer ,
+.menuItem--beachmobile .styledLinkContainer {
+  margin-top: 1rem;
+}
+.menuItem--clothmobile .styledLink ,
+.menuItem--acessoriesmobile .styledLink ,
+.menuItem--beachmobile .styledLink {
+  font-size: 1rem;
+  font-weight: bold;
+}

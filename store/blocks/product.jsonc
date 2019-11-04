@@ -1,0 +1,115 @@
+{
+  "store.product": {
+    "children": [
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "shelf.relatedProducts",
+      "product-reviews",
+      "product-questions-and-answers"
+    ]
+  },
+  "flex-layout.row#product-breadcrumb": {
+    "props": {
+      "marginTop": 4
+    },
+    "children": [
+      "breadcrumb"
+    ]
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
+    },
+    "children": [
+      "flex-layout.col#product-image",
+      "flex-layout.col#product-price"
+    ]
+  },
+  "flex-layout.col#product-image": {
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    },
+    "children": [
+      "product-images"
+    ]
+  },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  },
+  "flex-layout.col#product-price": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0
+    },
+    "children": [
+      "product-name",
+      "product-identifier.product",
+      "product-separator",
+      "flex-layout.row#middleproduct",
+      "sku-selector",
+      "product-separator",
+      "shipping-simulator",
+      "product-separator",
+      "product-description",
+      "product-separator",
+      "share#default"
+    ]
+  },
+  "product-identifier.product":{
+    "props":{
+    }
+  },
+  "flex-layout.row#middleproduct":{
+    "children":[
+      "flex-layout.col#leftproduct",
+      "flex-layout.col#rightproduct"
+    ],
+    "props":{
+      "blockClass": "pricebuybox"
+    }
+  },
+  "flex-layout.col#leftproduct": {
+    "children":[
+      "product-price#product-details"
+    ]
+  },
+  "flex-layout.col#rightproduct":{
+    "children":[
+      "buy-button"
+    ]
+  },
+  "buy-button":{
+    "props":{
+
+    }
+  },
+
+  "product-price#product-details": {
+    "props": {
+      "showListPrice": true,
+      "showLabels": true,
+      "showInstallments": true,
+      "showSavings": true
+    }
+  },
+
+  "share#default": {
+    "props":{
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true,
+        "Twitter": false,
+        "Pinterest": true
+      }
+    }
+  }
+
+}
