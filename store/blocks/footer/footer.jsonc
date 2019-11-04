@@ -16,7 +16,7 @@
   "rich-text#whatsapp":{
     "props":{
       "text": "[whatsApp](https://api.whatsapp.com?target=_blank/send?phone=4132728789&text=&source=&data=)",
-      "blockClass":"whatsapp a"
+      "blockClass":"whatsapp"
     }
   },
   "footer-row#1-desktop": {

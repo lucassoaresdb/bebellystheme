@@ -26,8 +26,8 @@
     z-index: 9999;
   }
   
-  .container--whatsapp a{
-    background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/whatsapp___3b3e58dab53f9282edb08d6a261ea1d9.png) no-repeat scroll center #4dc247;
+  .container--whatsapp{
+    background: url(/arquivos/whatsapplogo.png) no-repeat scroll center #4dc247;
     text-indent: -9999px;
     color: transparent;
     width: 50px;
@@ -36,3 +36,11 @@
     border-radius: 100%;
     box-shadow: 2px 2px 5px #8a8a8a;    
   }  
+
+  .container--whatsapp .link{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    text-indent: -99999px;
+  }
