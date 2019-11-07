@@ -26,7 +26,8 @@
     .itemContainer .itemContainer li a{padding: .5rem 0 .5rem 0;} */
     .firstLevelLink{
         margin: 10px 0;
-        padding: 0;        
+        padding: 0;
+        color: #fff;        
     }
     .secondLevelLink{
         display: none;
