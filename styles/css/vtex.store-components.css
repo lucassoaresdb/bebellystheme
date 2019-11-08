@@ -41,6 +41,10 @@
 .categoryItemChildrenContainer{
   color: #000;
 }
+.categoryItemChildren{
+color: #000;
+
+}
 .newsletter .label{
   font-size: 13px;
   color: #5bc6d0;
