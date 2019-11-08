@@ -100,7 +100,9 @@
     "children": [
       "product-summary-image",
       "product-summary-name",
-      "product-summary-price"
+      "product-summary-price",
+      "product-summary-space",
+      "product-summary-buy-button"
     ]
   },
   "product-summary-name":{
