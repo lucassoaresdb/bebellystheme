@@ -37,7 +37,7 @@
 }
 .menuContainer--menu-contact .menuItem .styledLink::before{
   content: "";
-  background: url(https://www.analoren.vteximg.com.br/arquivos/ids/155399/talk.png);
+  background: url(https://www.bebellys.vteximg.com.br/arquivos/talk.png);
   width: 12px;
   height: 12px;
   float: left;
@@ -47,7 +47,7 @@
 
 .menuContainer--menu-contact .menuItem:first-child .styledLink::before{
   content: "";
-  background: url(https://www.analoren.vteximg.com.br/arquivos/ids/155398/phone.png);
+  background: url(https://www.bebellys.vteximg.com.br/arquivos/phone.png);
   background-repeat: no-repeat;
 }
 
