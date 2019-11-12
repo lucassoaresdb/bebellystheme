@@ -1,0 +1,7 @@
+.menuLinks :global(.vtex-account_menu-link){
+    color: black;
+}
+
+.menuLink{
+    color: black;
+}
