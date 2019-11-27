@@ -35,6 +35,10 @@
 .shippingTableLabel{
   color: #000;
 }
+.shippingTableRadioBtn{
+  display: none;
+}
+
 .productDescriptionText{
   color: #000;
 }

@@ -77,19 +77,19 @@
   },
   "rich-text#facebook":{
 "props":{
-  "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/logofc.png 'Facebook Bebellys')](https://www.facebook.com/bebellys.infantil)"
+  "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/logofc.png 'Facebook Bebellys')](https://www.facebook.com/bebellys.infantil?target=_blank)"
 
 }
 },
 "rich-text#twiter":{
 "props":{
-  "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/logotw.png 'Twitter Bebellys')](https://twitter.com/bebellysmoda/with_replies)"
+  "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/logotw.png 'Twitter Bebellys')](https://twitter.com/bebellysmoda/with_replies?target=_blank)"
 }
 },
  
 "rich-text#instagram":{
     "props":{
-      "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/logoinsta.png 'Instagram Bebellys')](https://www.instagram.com/bebellysmoveis/)"
+      "text":"[![Bebellys](https://bebellys.vteximg.com.br/arquivos/logoinsta.png 'Instagram Bebellys')](https://www.instagram.com/bebellysmoveis/?target=_blank)"
     }
 },
 
@@ -437,7 +437,7 @@
     "props": {
       "text": "PROMOÇÕES DA SEMANA",
       "blockClass": "offermobile",
-      "href":"/promocao-da-senana"
+      "href":"/promocao-da-semana"
     }
   },
 
