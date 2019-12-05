@@ -56,8 +56,8 @@
       "orderBy": "OrderByTopSaleDESC",
       "productList": {
         "maxItems": 50,
-        "itemsPerPage": 3,
-        "scroll": "BY_PAGE",
+        "itemsPerPage": 4,
+        "scroll": "ONE_BY_ONE",
         "arrows": true,
         "showTitle": false,
         "paginationDotsVisibility": "hidden"
@@ -73,8 +73,8 @@
       "orderBy": "OrderByBestDiscountDESC",
       "productList": {
         "maxItems": 50,
-        "itemsPerPage": 3,
-        "scroll": "BY_PAGE",
+        "itemsPerPage": 4,
+        "scroll": "ONE_BY_ONE",
         "arrows": true,
         "showTitle": false,
         "paginationDotsVisibility": "hidden"
@@ -118,6 +118,11 @@
   "product-summary-image":{
     "props":{
       "hoverImageLabel": "hover"
+    }
+  },
+  "product-summary-buy-button":{
+    "props":{
+      "isOneClickBuy":true
     }
   },
 

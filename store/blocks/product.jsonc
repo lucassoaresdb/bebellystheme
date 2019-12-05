@@ -97,7 +97,8 @@
   },
   "buy-button":{
     "props":{
-      
+      "isOneClickBuy":true,
+      "buyButtonText":"Comprar"
 
     }
   },
