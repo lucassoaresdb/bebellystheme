@@ -1,3 +1,7 @@
+body :global(.vtex-toast-container){
+  display: none
+}
+
 .notificationBarContainer {
   background-color: #E6F1E6;
   color: #03034E;
