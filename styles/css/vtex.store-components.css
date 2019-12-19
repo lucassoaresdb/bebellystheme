@@ -1,9 +1,17 @@
+body :global(.vtex-toast-container){
+  display: none
+}
+
 .notificationBarContainer {
   background-color: #E6F1E6;
   color: #03034E;
   font-weight: 700;
   font-size: 12px;
   text-decoration: underline;
+}
+
+.skuSelectorName{
+  color: #000;
 }
 
 .infoCardContainer--info-card-home {

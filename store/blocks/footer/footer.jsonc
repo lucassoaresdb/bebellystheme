@@ -13,10 +13,10 @@
       "footer-row#3-desktop"
     ]
   },
-  "rich-text#whatsapp":{
-    "props":{
+  "rich-text#whatsapp": {
+    "props": {
       "text": "[whatsApp](https://api.whatsapp.com?target=_blank/send?phone=4132728789&text=&source=&data=)",
-      "blockClass":"whatsapp"
+      "blockClass": "whatsapp"
     }
   },
   "footer-row#1-desktop": {
@@ -24,8 +24,8 @@
       "flex-layout.row#topfoot"
     ]
   },
-  "flex-layout.row#topfoot":{
-    "children":[
+  "flex-layout.row#topfoot": {
+    "children": [
       "flex-layout.col#analoren",
       "footer-spacer",
       "flex-layout.col#payment",
@@ -36,70 +36,75 @@
       "blockClass": "topfootrow"
     }
   },
-  "flex-layout.col#analoren":{
-    "children":[
+  "flex-layout.col#analoren": {
+    "children": [
       "rich-text#analorentitle",
       "rich-text#about",
       "rich-text#privacy"
       // "rich-text#talk"
     ]
   },
-  "rich-text#analorentitle":{
-    "props":{
+  "rich-text#analorentitle": {
+    "props": {
       "text": "A BEBELLYS",
       "blockClass": "footertitle"
     }
   },
-  "rich-text#about":{
-    "props":{
+  "rich-text#about": {
+    "props": {
       "text": "[Sobre a Bebellys](/about-us)",
       "blockClass": "footlinkitem"
     }
   },
-  "rich-text#privacy":{
-    "props":{
+  "rich-text#privacy": {
+    "props": {
       "text": "[Privacidade](/privacy-info)",
       "blockClass": "footlinkitem"
-
     }
   },
-
-  "flex-layout.col#payment":{
-    "children":[
+  "flex-layout.col#payment": {
+    "children": [
       "rich-text#paymenttitle",
-      "accepted-payment-methods"
+      //"accepted-payment-methods"
+      "rich-text#paymentFlags"
     ],
     "props": {
       "blockClass": "payment-methods"
     }
   },
+  "rich-text#paymentFlags": {
+    "props": {
+      "text": "![Accepted Payment Flag](https://bebellys.vteximg.com.br/arquivos/flagsBebellys2.png)",
+      "blockClass": "paymentFlags"
+    }
+  },
   "accepted-payment-methods": {
     "props": {
       "paymentMethods": [
-        "MasterCard", "Visa", "Diners Club"
+        "MasterCard",
+        "Visa",
+        "Diners Club"
       ]
     }
   },
-  "rich-text#paymenttitle":{
-    "props":{
+  "rich-text#paymenttitle": {
+    "props": {
       "text": "PAGAMENTO",
       "blockClass": "footertitle"
     }
   },
-
-  "flex-layout.col#social":{
-    "children":[
+  "flex-layout.col#social": {
+    "children": [
       "rich-text#socialtitle",
       "social-networks"
     ]
   },
-  "rich-text#socialtitle":{
-    "props":{
+  "rich-text#socialtitle": {
+    "props": {
       "text": "ACOMPANHE",
       "blockClass": "footertitle"
     }
   },
-
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -122,27 +127,25 @@
       ]
     }
   },
-
   "footer-row#2-desktop": {
-    "children":[
+    "children": [
       "flex-layout.row#middlefoot"
     ]
   },
-  "flex-layout.row#middlefoot":{
-    "children":[
+  "flex-layout.row#middlefoot": {
+    "children": [
       "flex-layout.col#help",
       "footer-spacer",
       "flex-layout.col#safety",
       "footer-spacer",
       "flex-layout.col#vtexlogo"
-
     ],
     "props": {
       "blockClass": "middlefootrow"
     }
   },
-  "flex-layout.col#help":{
-    "children":[
+  "flex-layout.col#help": {
+    "children": [
       "rich-text#helptitle",
       "rich-text#helppayment#",
       "rich-text#change",
@@ -150,27 +153,26 @@
       // "rich-text#doubts"
     ]
   },
-
-  "rich-text#helptitle":{
-    "props":{
+  "rich-text#helptitle": {
+    "props": {
       "text": "AJUDA E SUPORTE",
       "blockClass": "footertitle"
     }
   },
-  "rich-text#helppayment#":{
-    "props":{
+  "rich-text#helppayment#": {
+    "props": {
       "text": "[Pagamento](/paymentinst-info)",
       "blockClass": "footlinkitem"
     }
   },
-  "rich-text#change":{
-    "props":{
+  "rich-text#change": {
+    "props": {
       "text": "[Trocas e Devoluções](/change-info)",
       "blockClass": "footlinkitem"
     }
   },
-  "rich-text#shipping":{
-    "props":{
+  "rich-text#shipping": {
+    "props": {
       "text": "[Frete e Entrega](/shipping-info)",
       "blockClass": "footlinkitem"
     }
@@ -181,38 +183,34 @@
   //     "blockClass": "footlinkitem"
   //   }
   // },
-  "flex-layout.col#safety":{
-    "children":[
+  "flex-layout.col#safety": {
+    "children": [
       "rich-text#safetytitle",
       "image#safetylogo"
-
     ]
   },
-  "rich-text#safetytitle":{
-    "props":{
+  "rich-text#safetytitle": {
+    "props": {
       "text": "SEGURANÇA",
       "blockClass": "footertitle"
     }
   },
-
-"image#safetylogo":{
-"props":{
-"src":"https://bebellys.vteximg.com.br/arquivos/encryptlogo.png",
-"alt":"Logo Lets Encrypt"
-}
-},
-
-  "flex-layout.col#vtexlogo":{
-    "children":[
+  "image#safetylogo": {
+    "props": {
+      "src": "https://bebellys.vteximg.com.br/arquivos/encryptlogo.png",
+      "alt": "Logo Lets Encrypt"
+    }
+  },
+  "flex-layout.col#vtexlogo": {
+    "children": [
       "image#vtexlogo"
     ]
   },
-"image#vtexlogo":{
-"props":{
-"src":"https://bebellys.vteximg.com.br/arquivos/vtexlogofooter.png"
-}
-},
-
+  "image#vtexlogo": {
+    "props": {
+      "src": "https://bebellys.vteximg.com.br/arquivos/vtexlogofooter.png"
+    }
+  },
   "footer-row#3-desktop": {
     "children": [
       "rich-text#footer"
@@ -221,14 +219,12 @@
       "blockClass": "credits"
     }
   },
-
   "rich-text#footer": {
     "props": {
       "text": "Bebellys Baby | CNPJ: 108840320001-50 | Av. Vereador Toaldo Tulio 2022 - São Braz | 82320-010 | Curitiba - PR | BRASIL",
       "blockClass": "footerlasttext"
     }
   },
-
   "footer-layout.mobile": {
     "children": [
       "footer-row#1-mobile",
@@ -236,10 +232,10 @@
       "rich-text#whatsappmobile"
     ]
   },
-  "rich-text#whatsappmobile":{
-    "props":{
+  "rich-text#whatsappmobile": {
+    "props": {
       "text": "[whatsApp](https://api.whatsapp.com/send?1=pt_BR&phone=554132728789)",
-      "blockClass":"whatsapp"
+      "blockClass": "whatsapp"
     }
   },
   "footer-row#1-mobile": {
@@ -254,7 +250,6 @@
   },
   "footer-row#2-mobile": {
     "children": [
-      
       "rich-text#footer-mobile"
     ],
     "props": {
