@@ -344,7 +344,14 @@
   },
   "header-layout.mobile": {
     "children": [
-      "header-row#1-mobile"
+      "header-row#1-mobile",
+      "header-row#search-bar"
+    ]
+  },
+
+  "header-row#search-bar": {
+    "children": [
+      "search-bar"
     ]
   },
   "header-row#1-mobile": {
